@@ -11,7 +11,7 @@ body {
   align-items: center;
   background-color: hsl(30, 38%, 92%);
   height: 100vh;
-  font-family: "Fraunces", "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 .container {
   width: 90%;
@@ -20,6 +20,7 @@ body {
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin: 2rem 0;
+  border-radius: 8px;
 }
 
 p,
@@ -53,6 +54,7 @@ h4 {
 .first_price {
   color: hsl(158, 36%, 37%);
   font-size: 2em;
+  font-family: "Fraunces", sans-serif;
 }
 .second_price {
   padding-left: 1rem;
